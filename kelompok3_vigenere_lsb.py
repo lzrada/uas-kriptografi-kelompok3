@@ -135,7 +135,7 @@ def menu():
     print(" PROGRAM KRIPTOGRAFI & STEGANOGRAFI ")
     print("======================================")
     print("1. Enkripsi + Embedding Pesan")
-    print("2. Dekripsi Pesan (Input Manual Ciphertext)")
+    print("2. Ekstraksi + Dekripsi Pesan")
     print("3. Keluar")
 
 # =======================
@@ -160,9 +160,6 @@ while True:
         print("Pesan berhasil disisipkan ke stego.bmp")
         print("CATAT ciphertext di atas untuk proses dekripsi!")
 
-    # =======================
-    # MENU 2 (MANUAL)
-    # =======================
     elif pilihan == "2":
         print("\n--- DEKRIPSI DARI STEGO IMAGE ---")
         image_path = input("Masukkan path stego image (enter untuk 'stego.bmp'): ")
